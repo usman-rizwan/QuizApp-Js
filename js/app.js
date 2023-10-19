@@ -10,7 +10,7 @@ function login() {
 
     //     })
     // }
-     if (emailInput.value.trim() == "student@gmail.com" && passInput.value.trim() == "student123") {
+     if (emailInput.value.toLowerCase().trim() == "student@gmail.com" && passInput.value.toLowerCase().trim() == "student123") {
         Swal.fire({
             position: 'top-end',
             icon: 'success',
